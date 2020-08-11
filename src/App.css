@@ -40,31 +40,36 @@
 
 .nav-bar { 
   display: grid;
+  background-color: brown;
+  align-content: center;
   grid-template-columns: 200px auto 200px;
   padding: 20px;
+  border-bottom: 1px solid #282c34;
 }
 
 .app-container { 
   display: grid;
   height: 100vh;
   grid-template-rows: 50px auto 100px;
-  padding: 20px;
+  
 }
 
 .nav-item-1{
   justify-self: left;
   font-size: 30px;
-  border-bottom: 1px solid #282c34;
+  color: white;
 }
 
 .nav-item-2{
   justify-self: center;
   font-size: 30px;
+  color: white;
 }
 
 .nav-item-3{
   justify-self: right;
   font-size: 30px;
+  color: white;
 }
 
 .content {
